@@ -3,7 +3,9 @@
   "version": "0.0.1",
   "description": "blog app",
   "main": "src/index.js",
+  "type": "module",
   "scripts": {
+    "start": "nodemon src/index",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "repository": {
@@ -52,5 +54,8 @@
     "parser": "@babel/eslint-parser",
     "env": [],
     "globals": []
+  },
+  "dependencies": {
+    "fastify": "^4.11.0"
   }
 }
