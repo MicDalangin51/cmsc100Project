@@ -1,18 +1,18 @@
 import { getBlogs } from '../../utils/db/index.js';
 
 export const listBlogPage = async (request, reply) => {
-    const { query } = request;
-    const { limit = 7 } = query;
-    const db = await getBlogs();
+  const { query } = request;
+  const { limit = 7 } = query;
+  const db = await getBlogs();
 
-    const list = [];
+  const list = [];
 
-    const blogs = Object.entries(db.blogList).map(function ([id, blog]) {
-        return {
-        id,
-        ...blog
-        };
-    }).sort(function (blog1, blog2) {
+  const blogs = Object.entries(db.blogList).map(function ([id, blog]) {
+    return {
+      id,
+      ...blog
+    };
+  }).sort(function (blog1, blog2) {
     return blog2.createdDate - blog1.createdDate;
   });
 
@@ -24,4 +24,4 @@ export const listBlogPage = async (request, reply) => {
   }
 
   return list;
-}
+};

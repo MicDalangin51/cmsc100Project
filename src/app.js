@@ -21,7 +21,7 @@ export async function build () {
   // This would be the route for create a blog post
   fastify.post(`${prefix}/blog`, createBlogPage);
 
-  //This would be the route for list blog page
+  // This would be the route for list blog page
   fastify.get(`${prefix}/blog`, listBlogPage);
 
   return fastify;
