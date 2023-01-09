@@ -1,4 +1,4 @@
-import { getBlogs, saveBlogs } from '../utils/db/index.js';
+import { getBlogs, saveBlogs } from '../../utils/db/index.js';
 import { v4 } from 'uuid';
 
 export const createBlogPage = async (request, reply) => {
