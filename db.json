@@ -1,4 +1,45 @@
 {
-  "blogList": {},
-  "test": 1673246518168
+  "blogList": {
+    "8e29d3aa-c61f-4bd6-991d-60956824ffe6": {
+      "title": "First Blog",
+      "author": "Martin Ivan Dalangin",
+      "content": "This is the first blog that would be used for testing purposes",
+      "blogComments": [],
+      "createdDate": 1673253603436,
+      "updatedDate": 1673253603436
+    },
+    "dc43f587-fde3-4d25-9a13-76f819ed1019": {
+      "title": "New Blog",
+      "author": "Some author",
+      "content": "Some content",
+      "blogComments": [],
+      "createdDate": 1673254068204,
+      "updatedDate": 1673254068204
+    },
+    "83eedd8b-1b41-45c1-8d11-866874410cea": {
+      "title": "Second Blog",
+      "author": "Martin Ivan Dalangin",
+      "content": "This is the second blog that would be used for testing purposes",
+      "blogComments": [],
+      "createdDate": 1673254146382,
+      "updatedDate": 1673254146382
+    },
+    "77c942dc-4c48-432e-b4fd-97593fcee7e0": {
+      "title": "3rd Blog",
+      "author": "Martin Ivan Dalangin",
+      "content": "This is the 3rd blog that would be used for testing purposes",
+      "blogComments": [],
+      "createdDate": 1673254205262,
+      "updatedDate": 1673254205262
+    },
+    "1995202f-bcd3-43e9-86eb-e0bc70525f9c": {
+      "title": "4th Blog",
+      "author": "Martin Ivan Dalangin",
+      "content": "This is the 4th blog that would be used for testing purposes",
+      "blogComments": [],
+      "createdDate": 1673254230574,
+      "updatedDate": 1673254230574
+    }
+  },
+  "test": 1673254068028
 }

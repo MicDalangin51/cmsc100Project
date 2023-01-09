@@ -72,6 +72,7 @@
   },
   "dependencies": {
     "fastify": "^4.11.0",
-    "fs": "^0.0.1-security"
+    "fs": "^0.0.1-security",
+    "uuid": "^9.0.0"
   }
 }
