@@ -55,6 +55,14 @@
       "blogComments": [],
       "createdDate": 1673257593098,
       "updatedDate": 1673257593098
+    },
+    "dc1e9807-087a-41e6-8746-06310486cfed": {
+      "title": "Can you really do it?",
+      "author": "Martin Ivan Dalangin",
+      "content": "Can you really code this using JS and EJS?",
+      "blogComments": [],
+      "createdDate": 1673291319388,
+      "updatedDate": 1673291319388
     }
   },
   "test": 1673257592897

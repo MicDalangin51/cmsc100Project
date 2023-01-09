@@ -1,5 +1,23 @@
 <!DOCTYPE html>
 <html lang="en">
+<style>
+    .button {
+        border: none;
+        color: white;
+        padding: 20px;
+        text-align: center;
+        text-decoration: none;
+        display: inline-block;
+        font-size: 16px;
+        margin: 4px 2px;
+        border-radius: 12px;
+      }
+
+      .button1 {background-color: #04AA6D;}
+      .button2 {background-color: #0000a0;}
+      .button3 {background-color: #e4b634;}
+      
+</style>
 <head>
     <meta cjarset="UTF-8">
     <meta name="viewport" content="width=device-width,
@@ -9,5 +27,14 @@
 </head>
 <body>
     <h1>BLOGGER</h1>
+    <button class="button button1">New Blog</button>
+    <%for (const key in list) {%>
+    <h2 class="title"><%=list[key].title%></h2>
+    <h3 class="title"><%=list[key].author%></h3>
+    <p class="content"><%=list[key].content%></p>
+    <button class="button button2">Read More</button>
+    <button class="button button3">See Comments</button>
+    <br><br>
+    <%}%>
 </body>
 </html>
