@@ -15,12 +15,13 @@ describe('Update a blog should work', async () => {
   it('Should update the object given an ID', async () => {
     const newBlog = {
       title: 'New blog for get',
+      author: 'Test author',
       content: 'Some content'
     };
 
     const newerBlog = {
       title: 'New Blog for update',
-      description: 'Some updated content'
+      content: 'Some updated content'
     };
 
     const createResponse = await app.inject({
@@ -59,7 +60,8 @@ describe('Update a blog should work', async () => {
   it('Should update when only title is edited', async () => {
     const newBlog = {
       title: 'New Blog for get',
-      description: 'Some description'
+      author: 'Test author',
+      content: 'Some content'
     };
 
     const newerBlog = {
@@ -102,7 +104,8 @@ describe('Update a blog should work', async () => {
   it('Should update when only content is edited', async () => {
     const newBlog = {
       title: 'New Blog for get',
-      description: 'Some description'
+      author: 'Test author',
+      content: 'Some content'
     };
 
     const newerBlog = {
