@@ -1,6 +1,7 @@
 import Fastify from 'fastify';
 import ejs from 'ejs';
 import fastifyView from '@fastify/view';
+
 import { createBlogPage } from './services/blog-page-services/create-blog-page.js';
 import { listBlogPage } from './services/blog-page-services/list-blog-page.js';
 import { getBlogPost } from './services/blog-page-services/get-blog.js';
