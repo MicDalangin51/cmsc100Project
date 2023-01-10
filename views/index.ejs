@@ -16,6 +16,18 @@
       .button1 {background-color: #04AA6D;}
       .button2 {background-color: #0000a0;}
       .button3 {background-color: #e4b634;}
+    
+      .blogContainer {
+        border-radius: 25px;
+        border: 2px solid black;
+        padding: 10px; 
+        width: 1000px;
+        height: 250px; 
+      }
+
+      .headings {
+        font-family: Arial, Helvetica, sans-serif;
+      }
       
 </style>
 <head>
@@ -26,14 +38,18 @@
     <title>Document</title>
 </head>
 <body>
-    <h1>BLOGGER</h1>
+    <h1 class="headings">BLOGGER</h1>
     <button class="button button1">New Blog</button>
+    <br><br><br><br><br><br>
     <%for (const key in list) {%>
-    <h2 class="title"><%=list[key].title%></h2>
-    <h3 class="title"><%=list[key].author%></h3>
-    <p class="content"><%=list[key].content%></p>
-    <button class="button button2">Read More</button>
-    <button class="button button3">See Comments</button>
+    <div class="blogContainer">
+        <h2 class="headings"><%=list[key].title%></h2>
+        <h3 class="headings"><%=list[key].author%></h3>
+        <p class="headings"><%=list[key].content%></p>
+        <nr><br>
+        <button class="button button2">Read More</button>
+        <button class="button button3">See Comments</button>
+    </div>
     <br><br>
     <%}%>
 </body>
