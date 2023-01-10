@@ -1,13 +1,12 @@
 import Fastify from 'fastify';
 import ejs from 'ejs';
 import fastifyView from '@fastify/view';
+import sensible from '@fastify/sensible';
+import openAPIGlue from 'fastify-openapi-glue';
+import swagger from '@fastify/swagger';
+import { Service } from './services/index.js';
+import { specification } from './specification/index.js';
 
-import { createBlogPage } from './services/blog-page-services/create-blog-page.js';
-import { listBlogPage } from './services/blog-page-services/list-blog-page.js';
-import { getBlogPost } from './services/blog-page-services/get-blog.js';
-import { updateBlogPost } from './services/blog-page-services/update-blog-data.js';
-import { deleteBlogPost } from './services/blog-page-services/delete-blog-data.js';
-import { general } from './services/general/index.js';
 
 const prefix = '/api';
 
@@ -20,22 +19,41 @@ export async function build () {
     }
   });
 
-  fastify.get(prefix, general);
+  fastify.register(sensible);
 
-  // This would be the route for create a blog post
-  fastify.post(`${prefix}/blog`, createBlogPage);
+  const service = new Service();
 
-  // This would be the route for list blog page
-  fastify.get(`${prefix}/blog`, listBlogPage);
+  const openAPIGlueOptions = {
+    specification,
+    service,
+    prefix
+  };
 
-  // This would be the route for getting a specific blog post
-  fastify.get(`${prefix}/blog/:blogId`, getBlogPost);
+  const swaggerOptions = {
+    openapi: specification,
+    routePrefix: '/docs',
+    exposeRoute: true
+  };
 
-  // This would be the route for updating a specific blog post
-  fastify.put(`${prefix}/blog/:blogId`, updateBlogPost);
+  fastify.register(swagger, swaggerOptions);
+  fastify.register(openAPIGlue, openAPIGlueOptions);
 
-  // This would be the route for deleting a specific blog post
-  fastify.delete(`${prefix}/blog/:blogId`, deleteBlogPost);
+  // this would initialize fastify
+  // fastify.get(prefix, general);
 
+  // // this would create a todo
+  // fastify.post(`${prefix}/todo`, createTodo);
+
+  // // function that gets many todos
+  // fastify.get(`${prefix}/todo`, getManyTodo);
+
+  // // function that gets a todo based on a todoId
+  // fastify.get(`${prefix}/todo/:todoId`, getTodo);
+
+  // // This function updates one todo
+  // fastify.put(`${prefix}/todo/:todoId`, updateTodo);
+
+  // // This function deletes a todo
+  // fastify.delete(`${prefix}/todo/:todoId`, deleteTodo);
   return fastify;
 }

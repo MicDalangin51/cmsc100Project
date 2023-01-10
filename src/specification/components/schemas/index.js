@@ -1,5 +1,5 @@
 export const schemas = {
-    TodoObject: {
+    BlogObject: {
       type: 'object',
       properties: {
         id: {
@@ -22,7 +22,7 @@ export const schemas = {
         }
       }
     },
-    BlogRequestObject: {
+    BlogRequestRequiredObject: {
       type: 'object',
       properties: {
         title: {
@@ -41,7 +41,20 @@ export const schemas = {
         'content'
       ]
     },
-   
+    BlogRequestObject: {
+        type: 'object',
+        properties: {
+          title: {
+            type: 'string'
+          },
+          description: {
+            type: 'string'
+          },
+          content: {
+            type: 'string'
+          }
+        },
+    },
     NewUserObject: {
       type: 'object',
       properties: {
