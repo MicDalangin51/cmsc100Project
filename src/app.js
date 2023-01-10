@@ -26,7 +26,7 @@ export async function build () {
   fastify.get(`${prefix}/blog`, listBlogPage);
 
   // This woulf be the route for getting a specific blog post
-  fastify.get(`${prefix}/blog/:blogId`,getBlogPost);
+  fastify.get(`${prefix}/blog/:blogId`, getBlogPost);
 
   return fastify;
 }
