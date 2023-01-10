@@ -63,7 +63,23 @@
       "blogComments": [],
       "createdDate": 1673291319388,
       "updatedDate": 1673291319388
+    },
+    "92528494-9438-46cb-94d3-3b387d6515fb": {
+      "title": "New Todo for get",
+      "author": "Test author",
+      "content": "This is just a test content",
+      "blogComments": [],
+      "createdDate": 1673316857724,
+      "updatedDate": 1673316857724
+    },
+    "2a624a69-bb23-4b9b-8737-6345f3198df3": {
+      "title": "New Blog",
+      "author": "Some author",
+      "content": "Some content",
+      "blogComments": [],
+      "createdDate": 1673316857735,
+      "updatedDate": 1673316857735
     }
   },
-  "test": 1673257592897
+  "test": 1673316857508
 }
