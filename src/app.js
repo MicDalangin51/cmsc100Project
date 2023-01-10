@@ -5,7 +5,7 @@ import { createBlogPage } from './services/blog-page-services/create-blog-page.j
 import { listBlogPage } from './services/blog-page-services/list-blog-page.js';
 import { getBlogPost } from './services/blog-page-services/get-blog.js';
 import { updateBlogPost } from './services/blog-page-services/update-blog-data.js';
-import { deleteBlogPost } from './services/blog-page-services/delete-blog-data.js'
+import { deleteBlogPost } from './services/blog-page-services/delete-blog-data.js';
 import { general } from './services/general/index.js';
 
 const prefix = '/api';
@@ -35,7 +35,6 @@ export async function build () {
 
   // This would be the route for deleting a specific blog post
   fastify.delete(`${prefix}/blog/:blogId`, deleteBlogPost);
-
 
   return fastify;
 }
