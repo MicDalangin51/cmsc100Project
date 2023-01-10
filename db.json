@@ -57,12 +57,12 @@
       "updatedDate": 1673257593098
     },
     "dc1e9807-087a-41e6-8746-06310486cfed": {
-      "title": "Can you really do it?",
+      "title": "Edited[Can you really do it]?",
       "author": "Martin Ivan Dalangin",
-      "content": "Can you really code this using JS and EJS?",
+      "content": "This blog post has been edited",
       "blogComments": [],
       "createdDate": 1673291319388,
-      "updatedDate": 1673291319388
+      "updatedDate": 1673326726347
     },
     "92528494-9438-46cb-94d3-3b387d6515fb": {
       "title": "New Todo for get",
@@ -79,7 +79,63 @@
       "blogComments": [],
       "createdDate": 1673316857735,
       "updatedDate": 1673316857735
+    },
+    "92a21b65-b0b6-4497-afa2-48c34793a4fb": {
+      "title": "Washing the Dishes?",
+      "author": "Diana Marie",
+      "content": "This is is a new post",
+      "blogComments": [],
+      "createdDate": 1673327150025,
+      "updatedDate": 1673327150025
+    },
+    "3c03af84-08fa-4352-b540-a541658f4539": {
+      "title": "New Blog for update",
+      "content": "Some content",
+      "blogComments": [],
+      "createdDate": 1673329785457,
+      "updatedDate": 1673329785462
+    },
+    "4cc93e2e-adc3-46e3-9272-b6550e592e66": {
+      "title": "New Blog",
+      "author": "Some author",
+      "content": "Some content",
+      "blogComments": [],
+      "createdDate": 1673329785463,
+      "updatedDate": 1673329785463
+    },
+    "6c0bbe2f-f4b2-4dda-b2d4-a34859fc9533": {
+      "title": "Edited title",
+      "blogComments": [],
+      "createdDate": 1673329785476,
+      "updatedDate": 1673329785476
+    },
+    "3ddbec6c-625b-4139-88c7-11c36717408c": {
+      "title": "New Blog for get",
+      "blogComments": [],
+      "createdDate": 1673329785481,
+      "updatedDate": 1673329785482,
+      "content": "Edited content"
+    },
+    "3564d69c-8ce1-400d-b1a8-19e8fa7129eb": {
+      "title": "New Blog for update",
+      "content": "Some content",
+      "blogComments": [],
+      "createdDate": 1673329940368,
+      "updatedDate": 1673329940376
+    },
+    "0042b44a-f79b-44cb-9e8e-4c19e28c029a": {
+      "title": "Edited title",
+      "blogComments": [],
+      "createdDate": 1673329940386,
+      "updatedDate": 1673329940387
+    },
+    "f52b9c88-c8f3-4e32-b73c-dce6f90c1220": {
+      "title": "New Blog for get",
+      "blogComments": [],
+      "createdDate": 1673329940394,
+      "updatedDate": 1673329940395,
+      "content": "Edited content"
     }
   },
-  "test": 1673316857508
+  "test": 1673329940079
 }

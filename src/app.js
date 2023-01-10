@@ -4,6 +4,7 @@ import fastifyView from '@fastify/view';
 import { createBlogPage } from './services/blog-page-services/create-blog-page.js';
 import { listBlogPage } from './services/blog-page-services/list-blog-page.js';
 import { getBlogPost } from './services/blog-page-services/get-blog.js';
+import { updateBlogPost } from './services/blog-page-services/update-blog-data.js';
 import { general } from './services/general/index.js';
 
 const prefix = '/api';
@@ -25,8 +26,11 @@ export async function build () {
   // This would be the route for list blog page
   fastify.get(`${prefix}/blog`, listBlogPage);
 
-  // This woulf be the route for getting a specific blog post
+  // This would be the route for getting a specific blog post
   fastify.get(`${prefix}/blog/:blogId`, getBlogPost);
+
+  // This would be the route for updating a specific blog post
+  fastify.put(`${prefix}/blog/:blogId`, updateBlogPost);
 
   return fastify;
 }

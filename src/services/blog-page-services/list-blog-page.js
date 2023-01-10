@@ -23,5 +23,5 @@ export const listBlogPage = async (request, reply) => {
     }
   }
 
-  return list;
+  return list.reverse();
 };
