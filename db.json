@@ -13,7 +13,15 @@
       "title": "Sample blog",
       "author": "Martin Ivan Dalangin",
       "content": "Hello! This is just a sample content of a blog",
-      "blogComments": [],
+      "blogComments": [
+        {
+          "id": "b93e6879-6df1-47fc-b4e3-4d6158e51af7",
+          "author": "Yuan Cruz",
+          "content": "I want to write my comment here",
+          "createdDate": 1673451431335,
+          "updatedDate": 1673451431335
+        }
+      ],
       "createdDate": 1673401276531,
       "updatedDate": 1673401276531
     },
@@ -21,7 +29,22 @@
       "title": "samp",
       "author": "Micmic Dalangin",
       "content": "sTrying this out for once",
-      "blogComments": [],
+      "blogComments": [
+        {
+          "id": "019c03a3-b2fc-4f53-b0c6-45e34aeec93d",
+          "author": "Mark Cheng",
+          "content": "This is a sample comment",
+          "createdDate": 1673451193339,
+          "updatedDate": 1673451193339
+        },
+        {
+          "id": "0f34c870-0e4a-4d2c-be9f-2d37bee56fea",
+          "author": "William Gray",
+          "content": "This is another sample comment",
+          "createdDate": 1673451213945,
+          "updatedDate": 1673451213945
+        }
+      ],
       "createdDate": 1673401547891,
       "updatedDate": 1673401547891
     },

@@ -21,6 +21,28 @@ export const schemas = {
         type: 'number'
       }
     }
+  },CommentObject: {
+    type: 'object',
+    properties: {
+      id: {
+        type: 'string'
+      },
+      author: {
+        type: 'string'
+      },
+      content: {
+        type: 'string'
+      },
+      postId: {
+        type: 'string'
+      },
+      createdDate: {
+        type: 'number'
+      },
+      updatedDate: {
+        type: 'number'
+      }
+    }
   },
   BlogRequestRequiredObject: {
     type: 'object',
@@ -37,6 +59,21 @@ export const schemas = {
     },
     required: [
       'title',
+      'author',
+      'content'
+    ]
+  },
+  CommentRequestRequiredObject: {
+    type: 'object',
+    properties: {
+      author: {
+        type: 'string'
+      },
+      content: {
+        type: 'string'
+      }
+    },
+    required: [
       'author',
       'content'
     ]
