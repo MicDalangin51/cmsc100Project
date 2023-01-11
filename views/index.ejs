@@ -39,7 +39,25 @@
 </head>
 <body>
     <h1 class="headings">BLOGGER</h1>
-    <button class="button button1">New Blog</button>
+    <h1 class="headings"><%=uri%></h1>
+    <label id='input_title' for='Blog Title'>Title:</label>
+    <input type='text' id='Blog Title' name='Blog Title' placeholder='Type title here'>
+    <label id='input_author' for='Blog Author'>Author:</label>
+    <input type='text' id='Blog Author' name='Blog Author' placeholder='Type author here'>
+    <label id='input_content' for='Blog Content'>Content:</label>
+    <input type="text" id='Blog Content' name='Blog Content' placeholder='Type content here'>
+    <button id="createbutton" style='border: none;
+    background-color: #04AA6D;
+    color: white;
+    padding: 20px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    margin: 4px 2px;
+    border-radius: 12px;'>New Blog</button>
+    <button id="test" onclick="greet()">Test</button>
+    <script type="text/javascript" src="/script.js"></script>
     <br><br><br><br><br><br>
     <%for (const key in list) {%>
     <div class="blogContainer">
