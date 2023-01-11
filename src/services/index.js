@@ -7,6 +7,7 @@ import { general } from './general/index.js';
 import { registerUser } from './user/register-user.js';
 import { loginUser } from './user/login-user.js';
 import { logoutUser } from './user/logout-user.js';
+import { createComment } from './comment/create-comment.js';
 
 export class Service {
   constructor (app) {
@@ -25,4 +26,7 @@ export class Service {
     registerUser = registerUser
     loginUser = loginUser
     logoutUser = logoutUser
+
+    //These are for the comments
+    createComment = createComment
 }
