@@ -21,7 +21,10 @@ export const blog = {
             }
           }
         }
-      }
+      },
+      security: [
+        {}
+      ]
     },
     put: {
       summary: 'Edit blog data',
@@ -55,7 +58,10 @@ export const blog = {
             }
           }
         }
-      }
+      },
+      security: [
+        {}
+      ]
     },
     delete: {
       summary: 'Delete blog data',
@@ -82,7 +88,10 @@ export const blog = {
             }
           }
         }
-      }
+      },
+      security: [
+        {}
+      ]
     }
   },
   '/blog': {
@@ -111,7 +120,10 @@ export const blog = {
             }
           }
         }
-      }
+      },
+      security: [
+        {}
+      ]
     },
     get: {
       summary: 'List blog page',
@@ -140,7 +152,10 @@ export const blog = {
             }
           }
         }
-      }
+      },
+      security: [
+        {}
+      ]
 
     }
   }

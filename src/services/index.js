@@ -5,6 +5,8 @@ import { updateBlogPost } from './blog-page-services/update-blog-data.js';
 import { deleteBlogPost } from './blog-page-services/delete-blog-data.js';
 import { general } from './general/index.js';
 import { registerUser } from './user/register-user.js';
+import { loginUser } from './user/login-user.js';
+import { logoutUser } from './user/logout-user.js';
 
 export class Service {
   constructor (app) {
@@ -21,4 +23,6 @@ export class Service {
 
     // These are user functions
     registerUser = registerUser
+    loginUser = loginUser
+    logoutUser = logoutUser
 }
