@@ -10,6 +10,10 @@ export const registerUser = async (request, reply) => {
 
   const db = await getBlogs();
 
+  if (db.users[username]) {
+    return reply.badRequest('Username already exists');
+  }
+
   const user = {
     hashedPassword,
     firstname,

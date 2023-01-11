@@ -72,6 +72,17 @@ export const schemas = {
       }
     }
   },
+  LoginObject: {
+    type: 'object',
+    properties: {
+      username: {
+        type: 'string'
+      },
+      password: {
+        type: 'string'
+      }
+    }
+  },
   UserObject: {
     type: 'object',
     properties: {
@@ -89,6 +100,14 @@ export const schemas = {
       },
       updatedDate: {
         type: 'number'
+      }
+    }
+  },
+  SuccessfulObject: {
+    type: 'object',
+    properties: {
+      success: {
+        type: 'boolean'
       }
     }
   }

@@ -8,5 +8,15 @@ export const responses = {
         }
       }
     }
+  },
+  SuccessfulResponse: {
+    description: 'A successful response to login',
+    content: {
+      'application/json': {
+        schema: {
+          $ref: '#/components/schemas/SuccessfulObject'
+        }
+      }
+    }
   }
 };

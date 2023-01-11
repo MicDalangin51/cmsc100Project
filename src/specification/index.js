@@ -7,5 +7,10 @@ export const specification = {
     version: '0.0.1'
   },
   paths,
-  components
+  components,
+  security: [
+    {
+      cookieAuth: []
+    }
+  ]
 };
