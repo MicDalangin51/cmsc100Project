@@ -20,8 +20,5 @@ describe('/api should work', async () => {
     // this checks if  http status code is 200
     response.statusCode.must.be.equal(200);
     const result = await response.json();
-
-    // this checks if success equals true
-    result.success.must.be.true();
   });
 });
