@@ -11,7 +11,7 @@ export class Service {
     this.app = app;
   }
 
-    //These are todo functions
+    // These are todo functions
     general = general
     createBlogPage = createBlogPage
     listBlogPage = listBlogPage
@@ -19,7 +19,6 @@ export class Service {
     updateBlogPost = updateBlogPost
     deleteBlogPost = deleteBlogPost
 
-    //These are user functions
+    // These are user functions
     registerUser = registerUser
-
 }

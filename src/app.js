@@ -7,7 +7,6 @@ import swagger from '@fastify/swagger';
 import { Service } from './services/index.js';
 import { specification } from './specification/index.js';
 
-
 const prefix = '/api';
 
 export async function build () {

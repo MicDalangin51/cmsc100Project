@@ -1,93 +1,37 @@
 {
   "blogList": {
-    "8e29d3aa-c61f-4bd6-991d-60956824ffe6": {
-      "title": "First Blog",
+    "bef892fb-46e0-4e4e-ad1b-045567b00b7d": {
+      "title": "Sample blog",
       "author": "Martin Ivan Dalangin",
-      "content": "This is the first blog that would be used for testing purposes",
+      "content": "Hello! This is just a sample content of a blog",
       "blogComments": [],
-      "createdDate": 1673253603436,
-      "updatedDate": 1673253603436
+      "createdDate": 1673401276531,
+      "updatedDate": 1673401276531
     },
-    "dc43f587-fde3-4d25-9a13-76f819ed1019": {
-      "title": "New Blog",
-      "author": "Some author",
-      "content": "Some content",
+    "40414d60-bbf9-4b4c-9aa2-a13752d304da": {
+      "title": "samp",
+      "author": "Micmic Dalangin",
+      "content": "sTrying this out for once",
       "blogComments": [],
-      "createdDate": 1673254068204,
-      "updatedDate": 1673254068204
+      "createdDate": 1673401547891,
+      "updatedDate": 1673401547891
     },
-    "83eedd8b-1b41-45c1-8d11-866874410cea": {
-      "title": "Second Blog",
-      "author": "Martin Ivan Dalangin",
-      "content": "This is the second blog that would be used for testing purposes",
+    "0a5dd2be-66a8-4815-8bbc-dd495b1071d4": {
+      "title": "Newest",
+      "author": "Micmic Dalangin",
+      "content": "[New]Trying this out for once",
       "blogComments": [],
-      "createdDate": 1673254146382,
-      "updatedDate": 1673254146382
+      "createdDate": 1673403290270,
+      "updatedDate": 1673403290270
     },
-    "77c942dc-4c48-432e-b4fd-97593fcee7e0": {
-      "title": "3rd Blog",
-      "author": "Martin Ivan Dalangin",
-      "content": "This is the 3rd blog that would be used for testing purposes",
+    "39a06d51-6b86-4eff-8db6-270a34f568cf": {
+      "title": "Sampleee",
+      "author": "Martin",
+      "content": "This is just another test",
       "blogComments": [],
-      "createdDate": 1673254205262,
-      "updatedDate": 1673254205262
-    },
-    "1995202f-bcd3-43e9-86eb-e0bc70525f9c": {
-      "title": "4th Blog",
-      "author": "Martin Ivan Dalangin",
-      "content": "This is the 4th blog that would be used for testing purposes",
-      "blogComments": [],
-      "createdDate": 1673254230574,
-      "updatedDate": 1673254230574
-    },
-    "4bc3be8b-ea95-44b5-9780-21caf8fcfbac": {
-      "title": "New Blog",
-      "author": "Some author",
-      "content": "Some content",
-      "blogComments": [],
-      "createdDate": 1673257546945,
-      "updatedDate": 1673257546945
-    },
-    "17c5c7dd-8e40-4fb1-b661-0aa1619bec80": {
-      "title": "New Blog",
-      "author": "Some author",
-      "content": "Some content",
-      "blogComments": [],
-      "createdDate": 1673257593098,
-      "updatedDate": 1673257593098
-    },
-    "dc1e9807-087a-41e6-8746-06310486cfed": {
-      "title": "Edited[Can you really do it]?",
-      "author": "Martin Ivan Dalangin",
-      "content": "This blog post has been edited",
-      "blogComments": [],
-      "createdDate": 1673291319388,
-      "updatedDate": 1673326726347
-    },
-    "92528494-9438-46cb-94d3-3b387d6515fb": {
-      "title": "New Todo for get",
-      "author": "Test author",
-      "content": "This is just a test content",
-      "blogComments": [],
-      "createdDate": 1673316857724,
-      "updatedDate": 1673316857724
-    },
-    "2a624a69-bb23-4b9b-8737-6345f3198df3": {
-      "title": "New Blog",
-      "author": "Some author",
-      "content": "Some content",
-      "blogComments": [],
-      "createdDate": 1673316857735,
-      "updatedDate": 1673316857735
-    },
-    "92a21b65-b0b6-4497-afa2-48c34793a4fb": {
-      "title": "Washing the Dishes?",
-      "author": "Diana Marie",
-      "content": "This is is a new post",
-      "blogComments": [],
-      "createdDate": 1673327150025,
-      "updatedDate": 1673327150025
+      "createdDate": 1673405159992,
+      "updatedDate": 1673405159992
     }
   },
-  "test": 1673336333703
+  "test": 1673401619936
 }
