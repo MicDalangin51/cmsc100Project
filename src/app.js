@@ -17,15 +17,15 @@ export async function build () {
   fastify.register(fastifyView, {
     engine: {
       ejs
-    },
+    }
   });
 
   fastify.register(sensible);
 
-  const __dirname = path.resolve(path.dirname(""));
-    fastify.register(FastifyStatic, {
-      root: path.join(__dirname, "views"),
-    });
+  const __dirname = path.resolve(path.dirname(''));
+  fastify.register(FastifyStatic, {
+    root: path.join(__dirname, 'views')
+  });
 
   const service = new Service();
 

@@ -1,4 +1,13 @@
 {
+  "users": {
+    "MICD51": {
+      "hashedPassword": "$2b$10$LDfQVyb/PO.J9NOdscd86OMow7YbsIEZMRJd1Yw8egCQZMWh7dSBO",
+      "firstname": "Martin Ivan",
+      "lastname": "Dalangin",
+      "createdDate": 1673438569065,
+      "updatedDate": 1673438569065
+    }
+  },
   "blogList": {
     "bef892fb-46e0-4e4e-ad1b-045567b00b7d": {
       "title": "Sample blog",

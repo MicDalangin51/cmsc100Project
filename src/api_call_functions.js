@@ -1,6 +1,6 @@
 import http from 'http';
 import axios from 'axios';
-import { getBlogs,saveBlogs } from './utils/db/index.js';
+import { getBlogs, saveBlogs } from './utils/db/index.js';
 
 export async function getManyBlogPosts (uri) {
   const route = `${uri}/api/blog`;
@@ -24,22 +24,21 @@ export async function getManyBlogPosts (uri) {
   });
 }
 
-
 export async function createPost (uri, title, author, content) {
   const route = `${uri}/api/blog`;
   const data = {
-    title: title,
-    author: author,
-    content: content
+    title,
+    author,
+    content
   };
   try {
-    const res = await axios.post(`${uri}/api/blog`, data)
-    console.log(`Status: ${res.status}`)
-    console.log('Body: ', res.data)
+    const res = await axios.post(`${uri}/api/blog`, data);
+    console.log(`Status: ${res.status}`);
+    console.log('Body: ', res.data);
   } catch (err) {
-    console.error(err)
+    console.error(err);
   }
 }
 
 // await getManyBlogPosts('http://127.0.0.1:8080');
-await createPost('http://127.0.0.1:8080','Sampleee','Martin','This is just another test');
+await createPost('http://127.0.0.1:8080', 'Sampleee', 'Martin', 'This is just another test');
